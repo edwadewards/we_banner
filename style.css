@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .45em;
+  background-color: #3d405b;
+  padding: 1.5em 5em;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25em;
+}
+
+.icons i {
+  font-size: 3.0rem;
+}
+
+.slash {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.brackets, .slash {
+  color: #01913b;
+}
+
+.html {
+  color: #a3d10a;
+}
+
+.css {
+  color: #e67207;
+}
+
+.js {
+  color: #141312;
+}
+
+.bs {
+  color: #7f0aa3;
+}
+
+.git {
+  color: #db782c;
+}
+
+.title > span,
+.signature > span {
+  color: #fff;
+}
+
+.title > span {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.signature > span {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 2.5rem;
+}
